@@ -1,0 +1,53 @@
+.docs {
+  &:not(:last-of-type) {
+    margin-bottom: 35px;
+  }
+}
+.docs__title {
+  margin-bottom: 25px;
+}
+.docs__item {
+  padding-left: 35px;
+  font-size: 20px;
+  line-height: 25px;
+  background: url("../images/list-item.png") no-repeat left center /24px;
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
+
+.docs__list li {
+  &:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+}
+.docs__file {
+  font-size: 20px;
+  line-height: 25px;
+  transition: 0.3s color;
+  &:hover {
+    color: $darkGreen
+  }
+}
+.property__title {
+  font-size: 35px;
+}
+.docs__title {
+  font-size: 30px;
+}
+.valid {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.pricelist__info {
+  line-height: 25px;
+}
+
+@media (max-width: 600px) {
+  .property__title {
+    font-size: 25px;
+  }
+  .docs__title,.pricelist__info {
+    font-size: 18px;
+  }
+}

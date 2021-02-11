@@ -1,0 +1,81 @@
+@import "navigation";
+.header-info {
+  padding: 25px 0;
+}
+.header-info__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-info__sber__info {
+  display: flex;
+}
+.sber__info__p {
+  color: $brightGreen;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.sber__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &:not(:last-of-type) {
+    margin-right: 35px;
+  }
+}
+.sber__info__logo {
+  max-width: 250px;
+}
+.header .user-city {
+  color: $brightGreen;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px 0;
+}
+.sber__info__working {
+  line-height: 120%;
+  font-size: 18px;
+}
+
+.header-info__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-info__contacts__phone,.header-info__contacts__email {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s color;
+  display: block;
+  &:hover {
+    color: $darkGreen;
+  }
+}
+.header-info__contacts__phone {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+@media (max-width: 769px) {
+  .header-info__wrapper {
+    flex-wrap: wrap;
+  }
+  .header-callrequest {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .header-info__sber {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .header-info__contacts {
+    margin: 0 auto;
+  }
+}

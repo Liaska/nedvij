@@ -1,0 +1,29 @@
+header.header
+    .header-info
+        .container
+            .header-info__wrapper
+                .header-info__sber
+                    .header-info__sber__info
+                        .sber__info
+                            p.sber__info__p Оценка для
+                            p.sber__info__p Сбербанка
+                        .sber__info
+                            .sber__info__working Работаем по #[br] Республике Дагестан
+                .header-info__contacts
+                    a(href="tel:+79996024840").header-info__contacts__phone +7 999 602 48 40
+                .header-callrequest
+                    button.button.accept.callrequest Заказать обратный звонок
+include navigation
+.popup
+    include feedback
+    .ok
+        p.result-title Спасибо за обращение!
+        p.result-text Остались вопросы?
+        p.result-text Вы можете позвонить <br>по указанному номеру телефона
+        .result-phone
+            a.button.accept(href="tel:+79996024840") +7 999 602 48 40
+    .fail
+        p.result-title Что-то пошло не так!
+        p.result-text Попробуйте еще раз или позвоните нам по указанному номеру телефона
+        .result-phone
+            a.button.accept(href="tel:+79996024840") +7 999 602 48 40

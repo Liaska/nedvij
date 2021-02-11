@@ -1,0 +1,57 @@
+.homebanner {
+  padding: 45px 0;
+  background: url('../images/4.jpg') no-repeat center center /cover;
+  background-attachment: fixed;
+  //background-color: $green;
+  //background-blend-mode: screen;
+}
+
+.homebanner__title {
+  font-size: 48px;
+  margin-bottom: 30px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.homebanner__info {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.homebanner__garanty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: $green;
+  border-radius: 5px;
+  width: max-content;
+  padding: 15px 25px;
+  color: white;
+  font-size: 30px;
+  line-height: 120%;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+.homebanner__sber-logo {
+  max-width: 150px;
+  margin-left: 15px;
+}
+.homebanner__acred {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .homebanner__title {
+    font-size: 35px;
+  }
+  .homebanner__sber-logo {
+    max-width: 125px;
+  }
+  .homebanner {
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+  }
+}

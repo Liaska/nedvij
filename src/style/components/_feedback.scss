@@ -1,0 +1,44 @@
+.feedback {
+  max-width: 45%;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 45px;
+}
+
+.feedback__title {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #00C874;
+}
+
+.feedback__input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #d3d4d4;
+  color: #242629;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.feedback .button {
+  margin: 0 auto;
+}
+
+@media (max-width: 769px) {
+  .feedback {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 769px) {
+  .feedback {
+    padding: 25px 10px;
+  }
+}

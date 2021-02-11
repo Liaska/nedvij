@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ae07426e-7822-4418-b439-f111a07ba5a5" name="Ахмед" url="http://31.31.196.115">
+        <fileTransfer rootFolder="/www/xn--80aefcbinbl1accim9bq7czh.xn--p1ai" host="31.31.196.115" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

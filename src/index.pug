@@ -1,0 +1,39 @@
+- var title = "Оценка имущества"
+include includes/doctype
+body
+    include includes/header
+    include includes/homebanner
+    include includes/services
+    include includes/estimate-list
+    .contact-info
+        .container
+            h2.contact-info__title Контакты
+            ul.contact-bar
+                li.contact-bar__item
+                    a.contact-bar__link.contact-bar__phone(href="tel:+79996024840") +7 999 602 48 40
+                li.contact-bar__item
+                    a.contact-bar__link.contact-bar__email(href="mailto:ocenka@оценканедвижимость.рф") ocenka@оценканедвижимость.рф
+                li.contact-bar__item
+                    a.contact-bar__link.contact-bar__whatsapp(href="https://wa.me/+79996024840?text=Здравствуйте, пишу на счет оценки недвижимости") WhatsApp
+                li.contact-bar__item
+                    a.contact-bar__link.contact-bar__viber(href="viber://add?number=+79996024840") Viber
+                li.contact-bar__item
+                    a.contact-bar__link.contact-bar__telegram(href="https://telegram.im/@lyaskak" target="_blank") Telegram
+    include includes/estimate
+    .questions
+        .container.questions__container
+            h2.questions__title Остались вопросы?
+            p.question У Вас сложная перепланировка в квартире?
+            p.question Проблемы с техническими документами?
+            p.question Аварийная ситуация?
+            p.question-answer Мы с удовольствием ответим на все Ваши вопросы
+            a.questions__link.callrequest.button.accept Обратная связь
+    .contact-info
+        .container
+            h2.contact-info__title Реквизиты
+            ul.contact-bar
+                li.contact-bar__item ЗАО «Фонд «Содействие»
+                li.contact-bar__item ИНН - 5751032340
+                li.contact-bar__item КПП - 575301001
+                li.contact-bar__item ОГРН - 1075742000542
+    include includes/footer

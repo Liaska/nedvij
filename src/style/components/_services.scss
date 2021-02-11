@@ -1,0 +1,73 @@
+
+.services {
+  padding-top: 50px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  max-width: 45%;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 25px;
+  min-height: 200px;
+  &_flat {
+    background: url("../images/room.png") no-repeat 95% 10px/180px,  #EDF1F2;
+  }
+  &_room {
+    background: url("../images/building.png") no-repeat 95% 10px/180px, #F4F7F6;
+  }
+  &_square {
+    background: url("../images/agricultural.png") no-repeat 95% 10px/180px, #EAF2F9;
+  }
+  &_house {
+    background: url("../images/home.png") no-repeat 95% 10px/180px,  #F9F9ED;
+  }
+  &_house-passport {
+    background: url("../images/home-passport.svg") no-repeat 95% 10px/180px,  #F9F9ED;
+  }
+  &_egrn {
+    background: url("../images/official-documents.svg") no-repeat 95% 10px/180px,  #EDF1F2;
+  }
+}
+.services-list__item__title {
+  max-width: 225px;
+  font-size: 24px;
+}
+.services-list__item__price {
+  display: flex;
+  align-items: center;
+}
+.services-list__item__price-info {
+  margin-right: 50px;
+  line-height: 120%;
+}
+
+.services-list__item:hover .button.neutral {
+  background-color: #ebebeb;
+}
+
+@media (max-width: 769px) {
+  .services-list {
+    flex-direction: column;
+  }
+  .services-list__item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-list__item {
+    background-size: 100px !important;
+    background-position: center right !important;
+  }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'SeroPro';
+  src: local('Sero Pro Light'), local('Sero-Pro-Light'),
+  url('fonts/SeroPro-Light.woff2') format('woff2'),
+  url('fonts/SeroPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeroPro';
+  src: local('Sero Pro Regular'), local('Sero-Pro-Regular'),
+  url('fonts/SeroPro.woff2') format('woff2'),
+  url('fonts/SeroPro.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SeroPro';
+  src: local('Sero Pro Bold'), local('Sero-Pro-Bold'),
+  url('fonts/SeroPro-Bold.woff2') format('woff2'),
+  url('fonts/SeroPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SeroPro';
+  src: local('Sero Pro Medium'), local('Sero-Pro-Medium'),
+  url('fonts/SeroPro-Medium.woff2') format('woff2'),
+  url('fonts/SeroPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}

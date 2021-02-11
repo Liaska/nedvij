@@ -1,0 +1,19 @@
+{
+  "name": "nedvij",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fonts": "0.0.2",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.32.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lyaska",
+  "license": "ISC"
+}
